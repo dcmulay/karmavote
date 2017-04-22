@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "RegistrationComplete.html",
+    "currentPage": "BusinessHomePage.html",
     "name": "KarmaVote-20170413",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 68,
+    "uniqCompNum": 105,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -112,7 +112,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -908,7 +908,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -1005,7 +1005,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1329,7 +1329,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -1529,7 +1529,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -1720,7 +1720,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -1911,7 +1911,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -2111,7 +2111,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -2302,7 +2302,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-194x1282.jpg",
               "height": 128,
               "alt": "KarmaVote",
               "link": "http://development.karmavote.com",
@@ -2385,6 +2385,591 @@
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-1u",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "BusinessHomePage.html": {
+      "settings": {
+        "title": "Business Home Page",
+        "meta_descr": "Main landing page once Business User logs in.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-28",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Welcome, Zalora",
+          "meta": "Logged in User: Jolene Ang, Head of Sustainability at Zalora"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessSubmissionComplete.html\" data-toolbar=\"-mbrBtnMove\">MANAGE SELECTIONS</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-27",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Step 1: Choose Projects",
+          "text": "<p>Set your default vote distribution, across your chosen projects</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "features3-21",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#7c706b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Singapore Red Cross",
+          "subtitle1": "Providing Nutritious Meals",
+          "caption1": "Every $8 we receive from businesses helps us provide healthy meals to a needy Singaporean family of four, for one day..",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">✔ 0% --- 100%</a> ",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "AkarakA",
+          "subtitle2": "Education - The greatest gift.",
+          "caption2": "Every $4,000 dollars we receive from businesses funds one underpreviledged Singaporean student for 1 year in higher education.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">✔ 0% --- 100%</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "SPCA",
+          "subtitle3": "Caring For Animals",
+          "caption3": "We are raising $4,000 by October to run our annual awareness campaign on Orchard Road, Singapore. &nbsp;",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">✔ 0% --- 100%</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x418.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Alzheimers Disease Association",
+          "subtitle4": "Recognizing Volunteerism",
+          "caption4": "$3,500 from businesses allows us to recognize our inexhaustible long term volunteers at an annual award event..",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">✔ 0% --- 100%</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-29",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Step 2: Add a promotion",
+          "subtitle": "Attract customers with KarmiCoin redemption offers",
+          "form": {
+            "action": "",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Promotion Title*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Start date*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "End date*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Description, min and max KarmiCoins, % or $ discount, min. spend, image file, list of coupon codes (CSV)"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Upload Image file and Coupon Code file (CSV)</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-22",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "SMALL": {
+              "color": "#00a885"
+            }
+          },
+          "_anchor": "form1-24",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#f4dfbd",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Step 3: Monthly donation",
+          "subtitle": "USE PAYMENT REFERNCE: <b>ABCDEF-12345</b>",
+          "form": {
+            "action": "RegistrationEmailSent.html",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Amount (SGD)*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Number of months"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Total Payable"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Notes: e.g. Your internal payment reference"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">MAKE DONATION NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-26",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "BusinessSubmissionComplete.html": {
+      "settings": {
+        "title": "Retailer Settings",
+        "meta_descr": "The page for business to view and maintain their donations, charity project selections and customer promotions.\n",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": true
+          },
+          "title": "Welcome, Zalora",
+          "meta": "Logged in User: Jolene Ang, Head of Sustainability at Zalora"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2k",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Manage Promotions",
+          "meta": "View past promotions. &nbsp;Manage current and future promotions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-2p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Promotion title</p><p>&nbsp; Start date</p><p>&nbsp; End date</p><p>&nbsp; Number of coupons offered</p><p>&nbsp; Number of coupons issued</p><p>&nbsp; Number of KarmiCoins redeemed</p><p>&nbsp; \"End promotion\" button (if end date not yet past). &nbsp;Add Save / Cancel button.</p><p>&nbsp; Extend / Repeat a promotion (if end date not yet past, then extends end date. &nbsp;Otherwise add a row to the table with all fields pre-populated, start date set to today and end date set to one month out. &nbsp;Add Save / Cancel buttons)</p><p><br></p><p><br></p></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "Donation History",
+          "meta": "Review, Pause and Restart your donations"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-2r",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "text": "<blockquote><p>TABLE 2 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Donation received date</p><p>&nbsp; Donation amount</p><p>&nbsp; Payment reference</p><p>&nbsp; Notes (as entered by business user while making payment)</p><p>&nbsp; Payment method (iBanking, cheque, card gateway)</p><p>&nbsp; Effective start date (manually set by KarmaVote Admin. &nbsp; In future: automate start date triggered by bank credit email alert)</p><p>&nbsp; Effective end date (one calendar month from effective start date)</p><p>&nbsp;&nbsp;&nbsp;Status&nbsp;(Active, Paused, Cancel, Awaiting Donation, Stopped)</p><p>&nbsp; Pause / Resume donations - Pausing will take effect only at end of prepaid donation \t\t\ttenor, or one calendar month, whichever is sooner.</p><p><br></p><p><br></p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2w",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">NEW DONATION</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Donations by Project",
+          "meta": "Review current and past projects you donated to"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-2u",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>TABLE 3 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Charity name</p><p>&nbsp; Project name</p><p>&nbsp; Project target</p><p>&nbsp; % complete</p><p>&nbsp; Donations allocated</p><p>&nbsp; Donations Start date</p><p>&nbsp; Donations End date (blank if still on going)</p><p>&nbsp;</p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">CHANGE PROJECTS</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2m",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
