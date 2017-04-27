@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "DEFAULT_Home.html",
+    "currentPage": "KVAdminPortal.html",
     "name": "KarmaVote-20170413",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 170,
+    "uniqCompNum": 196,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -157,7 +157,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -288,7 +288,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -410,7 +410,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 16
+        "order": 18
       },
       "components": [
         {
@@ -595,7 +595,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">KARMA MANAGEMENT</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">UPDATE PROFILE</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">KARMA MANAGEMENT</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessProfile.html\" data-toolbar=\"-mbrBtnMove\">UPDATE PROFILE</a>"
         },
         {
           "_styles": {
@@ -1718,7 +1718,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -1849,7 +1849,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 17
+        "order": 19
       },
       "components": [
         {
@@ -2660,7 +2660,7 @@
             "paddingBottom": 1,
             "bgColor": "#cccccc"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">NEW DONATION</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">NEW DONATION</a>"
         },
         {
           "_styles": {
@@ -2706,7 +2706,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">CHANGE PROJECTS</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">CHANGE PROJECTS</a> "
         },
         {
           "_tags": [
@@ -3024,7 +3024,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -3037,7 +3037,7 @@
           "title1": "Singapore Red Cross",
           "subtitle1": "Providing Nutritious Meals",
           "caption1": "Every $8 we receive from businesses helps us provide healthy meals to a needy Singaporean family of four, for one day..",
-          "button1": "<a data-app-btn=\"true\" href=\"EditCharityProject.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">EDIT / HALT PROJECT</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"CharityProjectUpdate.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">EDIT / HALT PROJECT</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/mbr-6-600x400.jpg",
@@ -3052,7 +3052,7 @@
           },
           "title2": "",
           "subtitle2": "",
-          "caption2": "&lt;&lt;&lt; Table showing donations received by date, by business, by project &gt;&gt;&gt;",
+          "caption2": "&lt;&lt;&lt; Table showing donations received by date, by business/individual, by project &gt;&gt;&gt;",
           "button2": "<a data-app-btn=\"true\" href=\"print:\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD / PRINT</a>",
           "media3": {
             "image": {
@@ -3215,7 +3215,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 15
+        "order": 17
       },
       "components": [
         {
@@ -3269,6 +3269,389 @@
           "text1": "<p>Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions&nbsp;</p>",
           "text2": "<p>Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions&nbsp;</p>",
           "text3": "<p>Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions Terms &amp; Conditions&nbsp;</p>"
+        }
+      ]
+    },
+    "KVAdminPortal.html": {
+      "settings": {
+        "title": "KarmaVote internal administration",
+        "meta_descr": "Portal for internal administration of charities, projects, businesses, donation transfers etc.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 20
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": true
+          },
+          "title": "KarmaVote Administration",
+          "meta": "Logged in User: DC Mulay, &nbsp; &nbsp; &nbsp; &nbsp;Last login: Date &nbsp; Time"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-4r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Manage Charities and Projects",
+          "meta": "View past promotions. &nbsp;Manage current and future promotions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-4t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp;-\tSubmission date</p><p>-\tCharity Name (when clicked launches charity website in new page)</p><p>- Charity Status (Pending/Approved/Rejected)</p><p>-\tComment (free text)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">-\tProject name (when clicked, shows pop up window or new window with full project details)</span><br></p><p>-\tProject status (Pending/Approved/Rejected/Paused/Completed/Paid Out/Closed)</p><p>-\tFeedback (comments to be emailed to charity upon project approval/rejection)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p>-\tTarget amount</p><p>-\tDonated amount</p><p>-\tProject hard end date (if stated by Charity)</p><p>- Actual end date (When Status changes to Completed)</p><p>- Date of Donation payout (when status set to Paid Out)</p><p>- Payout Cheque number</p><p>- Payout Amount</p><p><br></p></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4u",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": false
+          },
+          "title": "Manage Registered Businesses",
+          "meta": "Review, Pause and Restart your donations"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-4v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "text": "<blockquote><p>TABLE 2 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; -\tSubmission date</p><p>-\tBusiness Name (when clicked launches business website in new page)</p><p>-\tProject selections link (when clicked, shows pop up window or new window with full details of the projects and default allocations selected by the business)</p><p>-\tMonthly donation amount</p><p>-\tNumber of months paid</p><p>-\tPayment method (cheque/ibanking/online card)</p><p>-\tPayment receipt confirmed (Y/N - set manually when payment confirmed in KV bank account)</p><p>-\tPayment reference (manually entered here after verifying cheque credit/bank statement etc)</p><p>-\tStatus (Active/Pending/Paused/Stopped/Cancelled)</p><p>-\tComment (free text)</p><p>-\tCancel button (to suspend business if required)</p><p>-\tActivate button (to start voting, donations and redemptions after payment manually verified)</p><p>-\t“Are you sure?” pop-up when Cancel/Activate pressed.  When confirmed, appropriate email message triggered to Business.</p><p><br></p><p><br></p><p><br></p></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4x",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Manual Donation Transfers",
+          "meta": "<b>KV HOLD-ACCOUNT BALANCE = S$ 3,544</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-4y",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Create the following fields:&nbsp;</span><br></p><p><br></p><p>-\tCheckbox – Transfer FROM KV holding account? (default: unchecked)</p><p>-\tDropdown (disabled if above box is checked) – Select Project to transfer FROM</p><p>-\t(Display Charity name, project status, donation target and current donation for the chosen project)</p><p><br></p><p>-\tCheckbox – Transfer TO KV holding account? (default: unchecked)</p><p>-\tDropdown (disabled if above box is checked)– Select Project to transfer TO</p><p>-\t(Display Charity name, project status, donation target and current donation for the chosen project)</p><p><br></p><p><br></p><p>-\tAmount to transfer – SGD</p><p>-\tDropdown - Reason for transfer (System bug/Data Error, Project cancelled, Charity no-longer active, Other)</p><p>-\tComments</p><p><br></p><p>&nbsp;</p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-4z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">TRANSFER DONATION</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-51",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": false
+          },
+          "title": "Donation Transfer History",
+          "meta": "Review, Pause and Restart your donations"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-52",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "text": "<blockquote><p>TABLE 3 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>-\tTransfer date</p><p>-\tFrom Account (Project name or KV Hold)</p><p>-\tTo Account (Project name or KV Hold)</p><p>-\tAmount</p><p>-\tReason</p><p><br></p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-53",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">Export History to Excel</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-50",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "CharityProjectUpdate.html": {
+      "settings": {
+        "title": "Charity Project Manager",
+        "meta_descr": "The page for a charityh to view and maintain their project details",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 13
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-54",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": true
+          },
+          "title": "Welcome, Singapore Red Cross",
+          "meta": "Logged in User: John Smith"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-55",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-56",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Manage Project:Nutritious Meals",
+          "meta": "Make changes to active projects. &nbsp;Upload evidence for completed projects."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-57",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Editable Columns are:&nbsp;</p><p>&nbsp; Project name</p><p>&nbsp; Project description</p><p>&nbsp; Start date (if in the future, otherwise greyed out)</p><p>&nbsp; Target End date</p><p>&nbsp; Hard End date</p><p>&nbsp; Target Amount</p><p>&nbsp; Project Image file --- \"Change Image\" button</p><p>&nbsp;</p><p>&nbsp; Project evidence files --- \"Upload Project Evidence\" (only if project is completed)<span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Bullet buttons - Pause donations &nbsp; OR Continue donations (greyed out and set to \"Pause donations\" if project is already complete)</span></p><p><br></p><p><br></p><p><b>Note: Submitted details are subject to review by KarmaVote before publishing</b></p></blockquote>",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-5f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"CharityHomePage.html\" data-toolbar=\"-mbrBtnMove\">Submit Changes</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-5e",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
+          "text3": ""
         }
       ]
     }
