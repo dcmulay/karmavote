@@ -602,11 +602,9 @@ h6,
 #header3-3r .mbr-section-subtitle {
   text-align: center;
 }
-#form2-3s .mbr-section-title {
-  color: #fff;
-}
-#form2-3s .mbr-section-subtitle {
-  color: #a0a0a0;
+#header3-8f .mbr-section-title,
+#header3-8f .mbr-section-subtitle {
+  text-align: center;
 }
 #header3-3w .mbr-section-title,
 #header3-3w .mbr-section-subtitle {
@@ -730,6 +728,10 @@ h6,
 }
 #content2-57 P {
   text-align: left;
+}
+#header3-8g .mbr-section-title,
+#header3-8g .mbr-section-subtitle {
+  text-align: center;
 }
 #header3-5m .mbr-section-title,
 #header3-5m .mbr-section-subtitle {

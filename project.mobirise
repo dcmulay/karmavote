@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "IndividualReferralThankYou.html",
+    "currentPage": "DEFAULT_Home.html",
     "name": "KarmaVote-20170413",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 294,
+    "uniqCompNum": 305,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/brand-assets-128x84-128x84.png",
     "noImageResize": ""
@@ -1007,9 +1007,9 @@
             "showText": true,
             "showButton": true
           },
-          "title": "Error: This email address is already registered",
-          "text": "<p>Forgotten your password? &nbsp;Click the button below.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"ForgotPassword.html\" data-toolbar=\"-mbrBtnMove\">Reset Password</a>"
+          "title": "This email address is already registered",
+          "text": "<p>Choose one of the options below</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"ForgotPassword.html\" data-toolbar=\"-mbrBtnMove\">Reset Password</a> <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"ForgotPassword.html\" data-toolbar=\"-mbrBtnMove\">Login</a>"
         },
         {
           "_tags": [
@@ -1891,47 +1891,36 @@
         },
         {
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#a0a0a0"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "form2",
-          "_anchor": "form2-3s",
+          "_name": "header3",
+          "_anchor": "header3-8f",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
           },
-          "title": "Success! &nbsp;Use your new password to login",
-          "subtitle": "",
-          "form": {
-            "action": "CharityHome.html",
-            "alerts": {
-              "success": "Success!  You are logged in to your KarmiCoins account."
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Enter username ---------------->> Enter password"
-              }
-            }
+          "title": "Success! Use your new password to login",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-8e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Login</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Login.html\" data-toolbar=\"-mbrBtnMove\">Login Now</a> "
         },
         {
           "_tags": [
@@ -2980,7 +2969,7 @@
             "bgColor": "#a38f84",
             "showMeta": true
           },
-          "title": "<span style=\"font-weight: normal;\">Your Active Projects</span>",
+          "title": "<span style=\"font-weight: normal;\">Your Projects</span>",
           "meta": "Logged in User: John Smith&nbsp;"
         },
         {
@@ -3581,7 +3570,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Manage Project:Nutritious Meals",
+          "title": "Manage Project: Nutritious Meals",
           "meta": "Make changes to active projects. &nbsp;Upload evidence for completed projects."
         },
         {
@@ -3589,18 +3578,18 @@
             "Theme"
           ],
           "_name": "content2",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "content2-57",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Editable Columns are:&nbsp;</p><p>&nbsp; Project name</p><p>&nbsp; Project description</p><p>&nbsp; Start date (if in the future, otherwise greyed out)</p><p>&nbsp; Target End date</p><p>&nbsp; Hard End date</p><p>&nbsp; Target Amount</p><p>&nbsp; Project Image file --- \"Change Image\" button</p><p>&nbsp;</p><p>&nbsp; Project evidence files --- \"Upload Project Evidence\" (only if project is completed)<span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Bullet buttons - Pause donations &nbsp; OR Continue donations (greyed out and set to \"Pause donations\" if project is already complete)</span></p><p><br></p><p><br></p><p><b>Note: Submitted details are subject to review by KarmaVote before publishing</b></p></blockquote>",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Editable Columns are:&nbsp;</p><p>&nbsp; Project name</p><p>&nbsp; Project description</p><p>&nbsp; Start date (if in the future, otherwise greyed out)</p><p>&nbsp; Target End date</p><p>&nbsp; Hard End date</p><p>&nbsp; Target Amount</p><p>&nbsp; Project Image file --- \"Change Image\" button</p><p>&nbsp;</p><p>&nbsp; Project evidence files --- \"Upload Project Evidence\" (only if project is completed)<span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;&nbsp;</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Bullet buttons - Pause donations &nbsp; OR Continue donations (greyed out and set to \"Pause donations\" if project is already complete)</span></p><p><br></p><p><br></p><p><b>Note: Submitted details are subject to review by KarmaVote before publishing</b></p></blockquote>"
         },
         {
           "_tags": [
@@ -3666,6 +3655,26 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Thank you! Your purchases entitles you to &nbsp;KarmiCoins",
+          "meta": "KarmiCoins can be redeemed for special offers."
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -3676,7 +3685,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-dribbble mbr-iconfont mbr-iconfont-btn\"></span>KarmaVote</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html\" data-toolbar=\"-mbrBtnMove\">Collect KarmiCoin</a> "
         }
       ]
     },
@@ -4064,6 +4073,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-65",
           "_params": {
             "labelsColor": "#232323",
@@ -4109,12 +4123,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">UPLOAD RECEIPT</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">UPLOAD RECEIPT</a>"
         },
         {
           "_tags": [
