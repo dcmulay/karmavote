@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "DEFAULT_Home.html",
+    "currentPage": "IndividualHomePage.html",
     "name": "KarmaVote-20170413",
     "theme": {
       "name": "mobirise3",
@@ -157,7 +157,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 15
+        "order": 26
       },
       "components": [
         {
@@ -288,7 +288,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 16
+        "order": 25
       },
       "components": [
         {
@@ -410,7 +410,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 18
+        "order": 29
       },
       "components": [
         {
@@ -541,7 +541,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 9
+        "order": 11
       },
       "components": [
         {
@@ -782,7 +782,7 @@
             "showSubTitle": true
           },
           "title": "Step 2: Add a promotion",
-          "subtitle": "Attract customers with KarmiCoin redemption offers",
+          "subtitle": "Your KarmiCoin redemption offers for new and existing customers",
           "form": {
             "action": "",
             "alerts": {
@@ -1718,7 +1718,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 14
+        "order": 24
       },
       "components": [
         {
@@ -1849,7 +1849,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 19
+        "order": 30
       },
       "components": [
         {
@@ -2388,7 +2388,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 11
+        "order": 13
       },
       "components": [
         {
@@ -2532,7 +2532,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 10
+        "order": 12
       },
       "components": [
         {
@@ -2636,7 +2636,7 @@
             "paddingBottom": 1,
             "bgColor": "#cccccc"
           },
-          "text": "<blockquote><p>TABLE 2 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Donation received date</p><p>&nbsp; Donation amount</p><p>&nbsp; Payment reference</p><p>&nbsp; Notes (as entered by business user while making payment)</p><p>&nbsp; Payment method (iBanking, cheque, card gateway)</p><p>&nbsp; Effective start date (manually set by KarmaVote Admin. &nbsp; In future: automate start date triggered by bank credit email alert)</p><p>&nbsp; Effective end date (one calendar month from effective start date)</p><p>&nbsp;&nbsp;&nbsp;Status&nbsp;(Active, Paused, Cancel, Awaiting Donation, Stopped)</p><p>&nbsp; Pause / Resume donations - Pausing will take effect only at end of prepaid donation \t\t\ttenor, or one calendar month, whichever is sooner.</p><p><br></p><p><br></p></blockquote>"
+          "text": "<blockquote><p>TABLE 2 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Donation received date</p><p>&nbsp; Donation amount</p><p>&nbsp; Payment reference</p><p>&nbsp; Notes (as entered by business user while making payment)</p><p>&nbsp; Payment method (iBanking, cheque, card gateway)</p><p>&nbsp; Effective start date (manually set by KarmaVote Admin. &nbsp; In future: automate start date triggered by bank credit email alert)</p><p>&nbsp; Effective end date (counted in months from effective start date)</p><p>&nbsp;&nbsp;&nbsp;Status - Active; Completed (i.e. end date &lt; today); Paused (Business hidden from all pages, but prorata donation amount held with KarmaVote); &nbsp; Awaiting Donation (payment not yet received); Stopped (stopped by KVAdmin - e.g. because of some reputation issue detected).</p><p>&nbsp; Pause button - Visible only if donation status is Active and at least two days of donation remaining. &nbsp;Display confirmation popup box. &nbsp;Pausing will take effect on the next day. &nbsp;The prorata donation amount remaining will be calculated and held on account until the Business agains presses Resume button. &nbsp;</p><p>Resume button - Visible only if donation status is Paused. &nbsp;Pressing Resume button will take effect on the same day as long as ther is some remaining donation balance.</p><p><br></p><p><br></p><p><br></p></blockquote>"
         },
         {
           "_tags": [
@@ -2682,20 +2682,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>TABLE 3 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Charity name</p><p>&nbsp; Project name</p><p>&nbsp; Project target</p><p>&nbsp; % complete</p><p>&nbsp; Donations allocated</p><p>&nbsp; Donations Start date</p><p>&nbsp; Donations End date (blank if still on going)</p><p>&nbsp;</p></blockquote>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-2v",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"BusinessKarmaManager.html\" data-toolbar=\"-mbrBtnMove\">CHANGE PROJECTS</a> "
+          "text": "<blockquote><p>TABLE 3 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Charity name</p><p>&nbsp; Project name</p><p>&nbsp; Project target</p><p>&nbsp; % complete</p><p>&nbsp; Donation amount allocated</p><p>&nbsp; Donations Start date</p><p>&nbsp; Donations End date (blank if still on going)</p><p>&nbsp;</p></blockquote>"
         },
         {
           "_tags": [
@@ -2737,151 +2724,6 @@
         }
       ]
     },
-    "IndividualHomePage.html": {
-      "settings": {
-        "title": "KarmiCoin Account Home Page",
-        "meta_descr": "Main landing page once Individual User logs in.",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 7
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-4h",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#cccccc",
-            "showMeta": true
-          },
-          "title": "KarmaVote",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-49",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "Welcome, Jolene Ang",
-          "meta": "Your Last Log in: &lt;&lt;Date &amp; Time&gt;&gt; &nbsp; &nbsp;Your Account Balance is: &nbsp;14 KarmiCoins"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-4e",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-4k",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "...coming soon",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-4g",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
-          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
-          "text3": ""
-        }
-      ]
-    },
     "CharityHomePage.html": {
       "settings": {
         "title": "Charity Home Page",
@@ -2889,7 +2731,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 12
+        "order": 14
       },
       "components": [
         {
@@ -3204,7 +3046,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 17
+        "order": 28
       },
       "components": [
         {
@@ -3268,7 +3110,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 20
+        "order": 31
       },
       "components": [
         {
@@ -3513,7 +3355,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 15
       },
       "components": [
         {
@@ -3651,7 +3493,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 16
+        "order": 27
       },
       "components": [
         {
@@ -3696,7 +3538,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -3833,161 +3675,6 @@
         }
       ]
     },
-    "IndividualHomePag.html": {
-      "settings": {
-        "title": "Individual Home Page",
-        "meta_descr": "After registration and profile setting, or at subsequent logins, the Individual user is brought to this page",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 13
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "48px",
-              "text-align": "right"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-5v",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#cccccc",
-            "showMeta": true
-          },
-          "title": "&nbsp;Your KarmiCoins Account",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-5p",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#c1c1c1",
-            "showMeta": true
-          },
-          "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-5q",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-85",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "content2-5s",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote><p>Purchases Awaiting Your KarmaVote</p><p>\"Every KarmaVote earns you one KarmiCoin\"</p><p><br></p><p>Table with Columns:&nbsp;</p><p>&nbsp; Date and Time of Purchase</p><p>&nbsp; Business Name</p><p>&nbsp; Business's Monthly Donation Amount</p><p>&nbsp; Number of Projects Selected By Business</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Button – \"KarmaVote Now\" (applies business’s default project allocation) (user stays on this page)</span><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Button – \"KarmaVote (custom)\" (Navigates to IndividualProjectVoting.html page)</span></p><p><br></p></blockquote>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-5t",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">KarmaVote All Now</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-5u",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
-          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
-          "text3": ""
-        }
-      ]
-    },
     "IndividualReceipt.html": {
       "settings": {
         "title": "Receipt Upload Page",
@@ -3995,7 +3682,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 17
       },
       "components": [
         {
@@ -4172,7 +3859,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 18
       },
       "components": [
         {
@@ -4449,7 +4136,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 19
       },
       "components": [
         {
@@ -4637,7 +4324,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 20
       },
       "components": [
         {
@@ -4844,7 +4531,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 21
       },
       "components": [
         {
@@ -5025,7 +4712,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 22
       },
       "components": [
         {
@@ -5206,7 +4893,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8
+        "order": 10
       },
       "components": [
         {
@@ -5440,7 +5127,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 23
       },
       "components": [
         {
@@ -5552,6 +5239,161 @@
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-7y",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "IndividualHomePage.html": {
+      "settings": {
+        "title": "Individual Home Page",
+        "meta_descr": "After registration and profile setting, or at subsequent logins, the Individual user is brought to this page",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 16
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "48px",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "&nbsp;Your KarmiCoins Account",
+          "meta": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-5q",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-85",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content2-5s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>Purchases Awaiting Your KarmaVote</p><p>\"Every KarmaVote earns you one KarmiCoin\"</p><p><br></p><p>Table with Columns:&nbsp;</p><p>&nbsp; Date and Time of Purchase</p><p>&nbsp; Business Name</p><p>&nbsp; Business's Monthly Donation Amount</p><p>&nbsp; Number of Projects Selected By Business</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Button – \"KarmaVote Now\" (applies business’s default project allocation) (user stays on this page)</span><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp; Button – \"KarmaVote (custom)\" (Navigates to IndividualProjectVoting.html page)</span></p><p><br></p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-5t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">KarmaVote All Now</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-5u",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,

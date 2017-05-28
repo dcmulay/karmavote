@@ -653,20 +653,6 @@ h6,
 #header3-2t .mbr-section-subtitle {
   text-align: center;
 }
-#header3-4h .mbr-section-title,
-#header3-4h .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-49 .mbr-section-title,
-#header3-49 .mbr-section-subtitle {
-  text-align: center;
-}
-#header5-4k .mbr-section-title {
-  color: #000;
-}
-#header5-4k .mbr-section-lead {
-  color: #9c9a9a;
-}
 #header3-4j .mbr-section-title,
 #header3-4j .mbr-section-subtitle {
   text-align: center;
@@ -739,21 +725,6 @@ h6,
 }
 #form1-5n .form-control-label {
   color: #232323;
-}
-#header3-5v .mbr-section-title,
-#header3-5v .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-5v H3 {
-  font-size: 48px;
-  text-align: right;
-}
-#header3-5p .mbr-section-title,
-#header3-5p .mbr-section-subtitle {
-  text-align: center;
-}
-#content2-5s P {
-  text-align: left;
 }
 #header3-5y .mbr-section-title,
 #header3-5y .mbr-section-subtitle {
@@ -896,4 +867,19 @@ h6,
 #header3-7t .mbr-section-title,
 #header3-7t .mbr-section-subtitle {
   text-align: center;
+}
+#header3-5v .mbr-section-title,
+#header3-5v .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-5v H3 {
+  font-size: 48px;
+  text-align: right;
+}
+#header3-5p .mbr-section-title,
+#header3-5p .mbr-section-subtitle {
+  text-align: center;
+}
+#content2-5s P {
+  text-align: left;
 }
