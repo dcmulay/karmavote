@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "IndividualHomePage.html",
+    "currentPage": "BusinessKarmaManager.html",
     "name": "KarmaVote-20170413",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 305,
+    "uniqCompNum": 311,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/brand-assets-128x84-128x84.png",
     "noImageResize": ""
@@ -157,7 +157,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 26
+        "order": 25
       },
       "components": [
         {
@@ -288,7 +288,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 25
+        "order": 24
       },
       "components": [
         {
@@ -410,7 +410,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 29
+        "order": 28
       },
       "components": [
         {
@@ -541,7 +541,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -1150,7 +1150,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"DEFAULT_Home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KarmaVote</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">What We Do</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Consumers</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Businesses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Charities</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"DEFAULT_Home.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"DEFAULT_Home.html#features3-i\">Project Portfolio</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Register.html\">Register</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Login.html\">Login</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">What We Do</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Consumers</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Businesses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">For Charities</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"DEFAULT_Home.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"DEFAULT_Home.html#features3-i\">Project Portfolio</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Register.html\">Register</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Login.html\">Login</a></li>"
         },
         {
           "_name": "header1",
@@ -1718,7 +1718,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 24
+        "order": 23
       },
       "components": [
         {
@@ -1849,7 +1849,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 30
+        "order": 29
       },
       "components": [
         {
@@ -2244,7 +2244,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -2388,7 +2388,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
@@ -2532,7 +2532,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 12
+        "order": 11
       },
       "components": [
         {
@@ -2603,7 +2603,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Promotion title</p><p>&nbsp; Start date</p><p>&nbsp; End date</p><p>&nbsp; Number of coupons offered</p><p>&nbsp; Number of coupons issued</p><p>&nbsp; Number of KarmiCoins redeemed</p><p>&nbsp; \"End promotion\" button (if end date not yet past). &nbsp;Add Save / Cancel button.</p><p>&nbsp; Extend / Repeat a promotion (if end date not yet past, then extends end date. &nbsp;Otherwise add a row to the table with all fields pre-populated, start date set to today and end date set to one month out. &nbsp;Add Save / Cancel buttons)</p><p><br></p><p><br></p></blockquote>"
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Promotion title</p><p>&nbsp; Start date</p><p>&nbsp; End date (optional)</p><p>&nbsp; Validity period after issued date (optonal. &nbsp;e.g. coupon expires 1 month after being issued to the Individual)</p><p>&nbsp; Number of coupons offered</p><p>&nbsp; Number of coupons issued</p><p>&nbsp; Number of KarmiCoins redeemed</p><p>&nbsp; Max number of coupons redeemable per customer</p><p>&nbsp; \"End promotion\" button (if end date not yet past). &nbsp;Add Save / Cancel button.</p><p>&nbsp; Extend / Repeat a promotion (if end date not yet past, then extends end date. &nbsp;Otherwise add a row to the table with all fields pre-populated, start date set to today and end date set to one month out. &nbsp;Add Save / Cancel buttons)</p><p><br></p><p><br></p></blockquote>"
         },
         {
           "_styles": {
@@ -2685,6 +2685,39 @@
           "text": "<blockquote><p>TABLE 3 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Charity name</p><p>&nbsp; Project name</p><p>&nbsp; Project target</p><p>&nbsp; % complete</p><p>&nbsp; Donation amount allocated</p><p>&nbsp; Donations Start date</p><p>&nbsp; Donations End date (blank if still on going)</p><p>&nbsp;</p></blockquote>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8j",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "Reject Invalid Purchase Claims",
+          "meta": "Since last login: xx receipts uploaded. &nbsp;yy receipts AutoValidated"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-8k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "text": "<blockquote><p>NOTE: THIS SECTION ONLY APPLIES TO OFF-LINE BUSINESSES, FOR CHECKING THAT UPLOADED RECEIPTS ARE VALID.</p><p><br></p><p>TABLE 4 GOES HERE.</p><p><br></p><p>\"Reminder: Rejecting a receipt will result in an email to our customer, who may decide to contact you about the receipt.\"</p><p><br></p><p>Columns are:&nbsp;</p><p>- Purchase Date</p><p>- Receipt Number</p><p>- Receipt Amount</p><p>- Link to Receipt Image</p><p>- Uploaded Date</p><p>- AutoValidate Date (nn days after user upload)</p><p>- Rejection reason drop-down box</p><p>- Button: Reject receipt (enabled only when drop-down reason is selected)</p><p><br></p><p><br></p><p>- Download button: For Business user to download data to Excel.</p><p><br></p></blockquote>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -2731,7 +2764,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 14
+        "order": 13
       },
       "components": [
         {
@@ -3046,7 +3079,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 28
+        "order": 27
       },
       "components": [
         {
@@ -3110,7 +3143,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 31
+        "order": 30
       },
       "components": [
         {
@@ -3181,7 +3214,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp;-\tSubmission date</p><p>-\tCharity Name (when clicked launches charity website in new page)</p><p>- Charity Status (Pending/Approved/Rejected)</p><p>-\tComment (free text)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">-\tProject name (when clicked, shows pop up window or new window with full project details)</span><br></p><p>-\tProject status (Pending/Approved/Rejected/Paused/Completed/Paid Out/Closed)</p><p>-\tFeedback (comments to be emailed to charity upon project approval/rejection)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p>-\tTarget amount</p><p>-\tDonated amount</p><p>-\tProject hard end date (if stated by Charity)</p><p>- Actual end date (When Status changes to Completed)</p><p>- Date of Donation payout (when status set to Paid Out)</p><p>- Payout Cheque number</p><p>- Payout Amount</p><p><br></p></blockquote>"
+          "text": "<blockquote><p>TABLE 1 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp;-\tSubmission date</p><p>-\tCharity Name (when clicked launches charity website in new page)</p><p>- Charity Status (Pending/Approved/Rejected)</p><p>-\tComment (free text)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">-\tProject name (when clicked, shows pop up window or new window with full project details)</span><br></p><p>-\tProject status (Pending/Approved/Rejected/Paused/Completed/Paid Out/Closed)</p><p>-\tFeedback (comments to be emailed to charity upon project approval/rejection)</p><p>-\tApprove button (greyed out if status is Approved)</p><p>-\tReject button (greyed out if status is Rejected)</p><p><br></p><p>-\t“Are you sure?” pop-up when Approve/Reject pressed.  When confirmed, appropriate email message triggered to Charity.</p><p>-\tTarget amount</p><p>-\tDonated amount</p><p>-\tProject hard end date (if stated by Charity)</p><p>- Actual end date (When Status changes to Completed)</p><p>- Date of Donation payout (when status set to Paid Out)</p><p>- Payout Cheque number</p><p>- Payout Amount</p><p><br></p></blockquote>"
         },
         {
           "_styles": {
@@ -3309,6 +3342,39 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">Export History to Excel</a> "
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Manage Referred Organizations",
+          "meta": "Redeem KarmiCoins to receive Retailer's Coupon Codes&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-8l",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>TABLE 4 GOES HERE.</p><p><br></p><p>Columns are:&nbsp;</p><p>&nbsp; Referred Organization Name (read only)</p><p>&nbsp; Corrected organization name</p><p>&nbsp; Type (charity/business) (read only)</p><p>&nbsp; URL provided &nbsp;(read only)</p><p>&nbsp; &nbsp;Corrected main URL</p><p>&nbsp; First contacted on date (blank if organizaiton not yet contacted)</p><p>&nbsp; Contact person details - name, surname, email, phone number</p><p>&nbsp; Notes (free form text to track response)</p><p>&nbsp; Number of referrals (automatic count of how many people have referred the same organization - identified by Corrected Main URL) (read only)</p><p>&nbsp; Organization registered with KarmaVote? Y/N</p><p>&nbsp; Referral status: New, Contacted, Follow Up, Onboarded, Do Not Disturb</p><p>&nbsp; Follow up reminder date.</p><p><br></p><p>- Ability to sort by any column, filter by any column, export to Excel.</p></blockquote>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -3355,7 +3421,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 15
+        "order": 14
       },
       "components": [
         {
@@ -3486,51 +3552,6 @@
         }
       ]
     },
-    "PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html": {
-      "settings": {
-        "title": "Plug In for ecommerce platform",
-        "meta_descr": "This page is a stub for testing purposes so that we can test the functionality of the Plug In that we provide to Businesses for placing on their e-commerce check out page",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 27
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-8g",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "Thank you! Your purchases entitles you to &nbsp;KarmiCoins",
-          "meta": "KarmiCoins can be redeemed for special offers."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-5k",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html\" data-toolbar=\"-mbrBtnMove\">Collect KarmiCoin</a> "
-        }
-      ]
-    },
     "IndividualProfil.html": {
       "settings": {
         "title": "Profile setup page for Individuals",
@@ -3538,7 +3559,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -3723,7 +3744,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp; &nbsp; <b>Balance: 14 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -3753,7 +3774,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_tags": [
@@ -3802,11 +3823,11 @@
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Business Name......Business Location"
+                "customTitle": "Business Name..(reigstered or unregistered with us)"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Button to Select Receipt Image File (or take picture via phone camera).    Also bullet choice between \"KarmaVote (default)\"  OR \"KarmaVote (customize)\""
+                "customTitle": "Button to Select Receipt Image File (or take picture via phone camera). "
               }
             }
           },
@@ -3859,7 +3880,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 18
+        "order": 16
       },
       "components": [
         {
@@ -3930,7 +3951,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_styles": {
@@ -4087,7 +4108,7 @@
             "paddingBottom": "6",
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePag.html\" data-toolbar=\"-mbrBtnMove\">SAVE AND RETURN</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePag.html\" data-toolbar=\"-mbrBtnMove\">Submit KarmaVote</a> "
         },
         {
           "_tags": [
@@ -4129,194 +4150,6 @@
         }
       ]
     },
-    "IndividualMyKarmiCoins.html": {
-      "settings": {
-        "title": "Individual KarmiCoins Page",
-        "meta_descr": "Individual's KarmiCoin Account page",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 19
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-6g",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#cccccc",
-            "showMeta": true
-          },
-          "title": "&nbsp;Your KarmiCoins Account",
-          "meta": ""
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-6h",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#c1c1c1",
-            "showMeta": true
-          },
-          "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-6i",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-82",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "48px",
-              "text-align": "right"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-6z",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#cccccc",
-            "showMeta": true
-          },
-          "title": "Your Balance: 14 KarmiCoins",
-          "meta": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-6l",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">REDEEM NOW</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "content2-6k",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote><p>Your Recent KarmiCoins Transactions</p><p>(display last 5 transactions)</p><p><br></p><p>Table with Columns:&nbsp;</p><p>-\tDate KarmiCoins earned</p><p>-\tBusiness Name</p><p>-\tLink “Details” (pop-up: manual/online, date and time of purchase, date and time of vote, projects and charities voted for with %, Business transaction ref, KarmiCoin ID)</p><p><br></p><p>Page 1 of 7</p><p><br></p><p><br></p></blockquote>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-6n",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">&lt; &nbsp;Previous</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Next &nbsp;&gt;</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-6m",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
-          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
-          "text3": ""
-        }
-      ]
-    },
     "IndividualRedemption.html": {
       "settings": {
         "title": "Individual Redemption Page",
@@ -4324,7 +4157,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 20
+        "order": 19
       },
       "components": [
         {
@@ -4365,7 +4198,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp;&nbsp;    <b>Balance: 14 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -4395,7 +4228,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_styles": {
@@ -4451,7 +4284,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">LIST VIEW / TILE VIEW</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">LIST VIEW / TILE VIEW</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">Filter: Eligible Promotions / All Promotions</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">Search O--</a> "
         },
         {
           "_tags": [
@@ -4469,7 +4302,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Either Table (List view) or Tiles (Tile view) should contain these columns/attributes:&nbsp;</span><br></p><p>-\tBusiness name</p><p>-\tImage (for tile view)</p><p>-\tOffer Title</p><p>-\tOffer Description</p><p>-\tRetailer's Conditions summary (e.g. Minimum purchase of $50)</p><p>-\tKarmiCoins required (e.g. 3 KarmiCoins)</p><p>-\tOffer expiry date&nbsp;</p><p>- Button – “Redeem” for every tile/list item. (Goes to “IndividualGetCoupon.html”).</p><p><br></p><p><br></p><p>Page 1 of 5</p><p><br></p><p><br></p></blockquote>"
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Either Table (List view) or Tiles (Tile view) should contain these columns/attributes:&nbsp;</span><br></p><p>-\tBusiness name</p><p>-\tImage (for tile view)</p><p>-\tOffer Title</p><p>-\tOffer Description</p><p>-\tRetailer's Conditions summary (e.g. Minimum purchase of $50)</p><p>-\tKarmiCoins required (e.g. 3 KarmiCoins)</p><p>-\tOffer expiry date&nbsp;</p><p>- Button – “Redeem” for every tile/list item. (Goes to “IndividualGetCoupon.html”) - Button disabled if insufficient KarmiCoins balance.</p><p><br></p><p><br></p><p>Page 1 of 5</p><p><br></p><p><br></p></blockquote>"
         },
         {
           "_tags": [
@@ -4531,7 +4364,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 21
+        "order": 20
       },
       "components": [
         {
@@ -4572,7 +4405,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp; &nbsp;    <b>Balance: 14 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -4712,7 +4545,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 22
+        "order": 21
       },
       "components": [
         {
@@ -4753,7 +4586,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp; &nbsp;    <b>Balance: 10 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -4783,7 +4616,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_styles": {
@@ -4893,7 +4726,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -5127,7 +4960,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 23
+        "order": 22
       },
       "components": [
         {
@@ -5171,7 +5004,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp; &nbsp;    <b>Balance: 14 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -5201,7 +5034,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePag.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePag.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_tags": [
@@ -5280,7 +5113,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 16
+        "order": 15
       },
       "components": [
         {
@@ -5325,7 +5158,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time"
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time<b> &nbsp; &nbsp;Balance: 14 KarmiCoins</b>"
         },
         {
           "_name": "footer1",
@@ -5355,7 +5188,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">My KarmiCoins</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
         },
         {
           "_tags": [
@@ -5394,6 +5227,239 @@
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-5u",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brand-assets-128x84.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>27 Balmoral Road<br>Singapore 259808",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@karmavote.com<br><br><a href=\"TandC.html\" target=\"_blank\">Terms and Conditions</a><br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html": {
+      "settings": {
+        "title": "Plug In for ecommerce platform",
+        "meta_descr": "This page is a stub for testing purposes so that we can test the functionality of the Plug In that we provide to Businesses for placing on their e-commerce check out page",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 26
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Thank you! Your purchases entitles you to &nbsp;KarmiCoins",
+          "meta": "KarmiCoins can be redeemed for special offers."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-5k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"PLUGIN_FOR_BUSINESS_CHECKOUT_PAGE.html\" data-toolbar=\"-mbrBtnMove\">Collect KarmiCoin</a> "
+        }
+      ]
+    },
+    "IndividualKarmiCoinsHistory.html": {
+      "settings": {
+        "title": "KarmiCoins History Page",
+        "meta_descr": "Individual's KarmiCoin History of how KarmiCoins were spent and redeemed.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 18
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "&nbsp;Your KarmiCoins Account",
+          "meta": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": "Logged in User: Jolene Ang &nbsp; &nbsp; Last login at: &nbsp;Date/Time &nbsp; &nbsp;&nbsp;    <b>Balance: 14 KarmiCoins</b>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-6i",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 CrozzBorderz Pte Ltd."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-82",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualHomePage.html\" data-toolbar=\"-mbrBtnMove\">My Purchases</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReceipt.html\" data-toolbar=\"-mbrBtnMove\">Missing Purchase</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Redeem Now</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualReferral.html\" data-toolbar=\"-mbrBtnMove\">Referrals</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualProfil.html\" data-toolbar=\"-mbrBtnMove\">Profile</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"DEFAULT_Home.html\" data-toolbar=\"-mbrBtnMove\">Logout</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "48px",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "Your Balance: 14 KarmiCoins",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-6l",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualRedemption.html\" data-toolbar=\"-mbrBtnMove\">REDEEM NOW</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content2-6k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>Your Recent KarmiCoins Transactions</p><p>(display last 5 transactions)</p><p><br></p><p>Table with Columns:&nbsp;</p><p>-\tDate KarmiCoins earned</p><p>-\tBusiness Name</p><p>-\tLink “Details” (pop-up: manual/online, date and time of purchase, date and time of vote, projects and charities voted for with %, Business transaction ref, KarmiCoin ID)</p><p>- Redemption Date (if already redeemed)</p><p>- Redeemed at (if already redeemed - shows name of business where redeemed)</p><p>- Redemption Coupon code (if already redeemed)</p><p><br></p><p>Page 1 of 7</p><p><br></p><p><br></p></blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-6n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">&lt; &nbsp;Previous</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"IndividualMyKarmiCoins.html\" data-toolbar=\"-mbrBtnMove\">Next &nbsp;&gt;</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-6m",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,

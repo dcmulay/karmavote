@@ -653,6 +653,10 @@ h6,
 #header3-2t .mbr-section-subtitle {
   text-align: center;
 }
+#header3-8j .mbr-section-title,
+#header3-8j .mbr-section-subtitle {
+  text-align: center;
+}
 #header3-4j .mbr-section-title,
 #header3-4j .mbr-section-subtitle {
   text-align: center;
@@ -704,6 +708,10 @@ h6,
 #header3-51 .mbr-section-subtitle {
   text-align: center;
 }
+#header3-8m .mbr-section-title,
+#header3-8m .mbr-section-subtitle {
+  text-align: center;
+}
 #header3-54 .mbr-section-title,
 #header3-54 .mbr-section-subtitle {
   text-align: center;
@@ -714,10 +722,6 @@ h6,
 }
 #content2-57 P {
   text-align: left;
-}
-#header3-8g .mbr-section-title,
-#header3-8g .mbr-section-subtitle {
-  text-align: center;
 }
 #header3-5m .mbr-section-title,
 #header3-5m .mbr-section-subtitle {
@@ -757,25 +761,6 @@ h6,
 }
 #features3-6e P {
   color: #ffffff;
-}
-#header3-6g .mbr-section-title,
-#header3-6g .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-6h .mbr-section-title,
-#header3-6h .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-6z .mbr-section-title,
-#header3-6z .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-6z H3 {
-  font-size: 48px;
-  text-align: right;
-}
-#content2-6k P {
-  text-align: left;
 }
 #header3-6o .mbr-section-title,
 #header3-6o .mbr-section-subtitle {
@@ -881,5 +866,28 @@ h6,
   text-align: center;
 }
 #content2-5s P {
+  text-align: left;
+}
+#header3-8g .mbr-section-title,
+#header3-8g .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-6g .mbr-section-title,
+#header3-6g .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-6h .mbr-section-title,
+#header3-6h .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-6z .mbr-section-title,
+#header3-6z .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-6z H3 {
+  font-size: 48px;
+  text-align: right;
+}
+#content2-6k P {
   text-align: left;
 }
